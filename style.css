@@ -1,3 +1,4 @@
+/* Here goes your CSS */
 body {
   color: rgb(80,80,80);
   background-color: rgb(230,230,230);
@@ -21,7 +22,11 @@ a:hover {
 td {
   margin: auto 1%;
 }
-.card-white {
+.container {
+  width: 500px;
+  margin: 10px auto;
+}
+.card {
   background: white;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -30,9 +35,8 @@ td {
   border-radius: 5px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
   border: 1px solid rgba(0, 0, 0, 0.15);
-  width: 300px;
-  margin: 10px auto;
   text-align: center;
+  margin: 2%;
 }
 .list-inline > li {
   display: inline-block;
@@ -53,9 +57,15 @@ td {
   color: white;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
 }
+.btn-blue:hover {
+  color: rgb(50,100,200);
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(50, 100, 200, 0.75);
+}
 .img-circle {
   border-radius: 20px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  margin-top: 5%;
 }
 .text-justify {
   text-align: justify;
