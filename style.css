@@ -1,0 +1,72 @@
+body {
+  color: rgb(80,80,80);
+  background-color: rgb(230,230,230);
+  font-size: 16px;
+  font-family: 'Signika', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+ul {
+  padding: 0px;
+}
+a {
+  color: rgb(80,80,80);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(50,100,200);
+}
+td {
+  margin: auto 1%;
+}
+.card-white {
+  background: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  width: 300px;
+  margin: 10px auto;
+  text-align: center;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 5px;
+  font-size: 30px;
+}
+#movie {
+  width: 120px;
+}
+#profile {
+  width: 175px;
+}
+.btn-blue {
+  padding: 7px 15px;
+  margin: 10px;
+  background-color: rgb(50,100,200);
+  border-radius: 4px;
+  color: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+.img-circle {
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+.text-justify {
+  text-align: justify;
+}
+.teste {
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+.teste-two {
+  width: 100%;
+  float: right;
+  background-color: white;
+}
